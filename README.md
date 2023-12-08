@@ -1,2 +1,2 @@
-# slashkey2.0_Counter
-30 HOURS Counter for Slashkey 2.0 , IEEE CSKS
+# amaze23_counter
+24 HOURS Counter for Amaze '23, IEEE CS SBC GCEK
