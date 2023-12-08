@@ -5,7 +5,7 @@ body {
   font-family: "Space Mono", monospace;
   color: #00e3fc;
   background: rgb(80,20,0);
-background: linear-gradient(124deg, rgba(18,147,238,1) 8%, rgba(19,18,31,1) 100%);
+background: linear-gradient(124deg, rgba(80,20,0,1) 8%, rgba(19,18,31,1) 100%);
 }
 
 #timer {
