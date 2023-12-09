@@ -1,6 +1,5 @@
 // Set countdown date for 24 hours from the current time
-let countdownDate = new Date();
-countdownDate.setHours(countdownDate.getHours() + 24);
+let countdownDate = new Date('2023 December 10, 10:30 am');
 
 let timerInterval;
 
