@@ -29,10 +29,9 @@ const startCountdown = () => {
     let minutes = Math.floor((difference % (60 * 60)) / 60);
     let seconds = Math.floor(difference % 60);
 
-    daysElem.innerHTML = formatTime(days, "days");
-    hoursElem.innerHTML = formatTime(hours, "hours");
-    minutesElem.innerHTML = formatTime(minutes, "minutes");
-    secondsElem.innerHTML = formatTime(seconds, "seconds");
+    hoursElem.innerHTML = formatTime(hours, "");
+    minutesElem.innerHTML = formatTime(minutes, "");
+    secondsElem.innerHTML = formatTime(seconds, "");
 };
 
 const endCountdown = () => {
