@@ -1,14 +1,6 @@
-/* Set countdown date as a future date with a 24 hour format */
-// let countdownDate = new Date('01 January 2023 00:00')
-
-/* Set countdown date by adding hours to current date */
-let countdownDate = new Date().setHours(new Date().getHours() + 30)
-
-/* Set countdown date by adding minutes to current date */
-// let countdownDate = new Date().setMinutes(new Date().getMinutes() + 5);
-
-/* Set countdown date by adding seconds to current date */
-// let countdownDate = new Date().setSeconds(new Date().getSeconds() + 30);
+// Set countdown date for 24 hours from the current time
+let countdownDate = new Date();
+countdownDate.setHours(countdownDate.getHours() + 24);
 
 let timerInterval;
 
@@ -38,10 +30,10 @@ const startCountdown = () => {
     let minutes = Math.floor((difference % (60 * 60)) / 60);
     let seconds = Math.floor(difference % 60);
 
-    daysElem.innerHTML = formatTime(days, "");
-    hoursElem.innerHTML = formatTime(hours, "");
-    minutesElem.innerHTML = formatTime(minutes, "");
-    secondsElem.innerHTML = formatTime(seconds, "");
+    daysElem.innerHTML = formatTime(days, "days");
+    hoursElem.innerHTML = formatTime(hours, "hours");
+    minutesElem.innerHTML = formatTime(minutes, "minutes");
+    secondsElem.innerHTML = formatTime(seconds, "seconds");
 };
 
 const endCountdown = () => {
