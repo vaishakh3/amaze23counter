@@ -3,8 +3,7 @@ let countdownDate = new Date('2023 December 10, 10:30 am');
 
 let timerInterval;
 
-const daysElem = document.getElementById("days"),
-    hoursElem = document.getElementById("hours"),
+const    hoursElem = document.getElementById("hours"),
     minutesElem = document.getElementById("minutes"),
     secondsElem = document.getElementById("seconds"),
     timer = document.getElementById("timer"),
